@@ -61,6 +61,11 @@ namespace Vox {
 
             case 0x03:
                 message << "[FILESYSTEM] ";
+                break;
+
+            case 0x04:
+                message << "[PLATFORM] ";
+                break;
 
             default:
                 message << "[INVALID/UNKNOWN MODULE ID]";
